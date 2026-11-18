@@ -117,7 +117,6 @@ $script:LogoRows = @(
     '#     #  #  #   # #   # #     #   # #  #  #     #   # #  # ',
     '#     #   # #   # #   # ##### ####  #   # ##### #   # #   #'
 )
-
 $script:Steps = @('System check', 'Process Explorer')
 
 function ConvertFrom-BsmmHex {
