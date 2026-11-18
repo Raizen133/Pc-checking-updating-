@@ -25,7 +25,7 @@ foreach ($__n in @(
 Clear-Host
 
 # =============================================================================
-#   BSMM ANTI-CHEAT  -  PC Check
+#   FRAMEBREAK ANTI-CHEAT  -  PC Check
 #   Run whenever FRAMEBREAK staff ask for a PC check. The live monitor is the separate FRAMEBREAK-Monitor.ps1 script.
 #
 #   BRAND SETTINGS: edit this block to restyle the whole tool.
@@ -109,12 +109,13 @@ $script:G = @{
 
 # "BSMM" in block letters. '#' = solid block, the other symbols are the shadow lines.
 $script:LogoRows = @(
-    '######7 #######7###7   ###7###7   ###7',
-    '##F==##7##F====J####7 ####!####7 ####!',
-    '######FJ#######7##F####F##!##F####F##!',
-    '##F==##7L====##!##!L##FJ##!##!L##FJ##!',
-    '######FJ#######!##! L=J ##!##! L=J ##!',
-    'L=====J L======JL=J     L=JL=J     L=J'
+    # "FRAMEBREAK" in block letters.
+$script:LogoRows = @(
+    '##### ####   ###  #   # ##### ####  ####  #####  ###  #   #',
+    '#     #   # #   # ## ## #     #   # #   # #     #   # #  # ',
+    '####  ####  ##### # # # ####  ####  ####  ####  ##### ###  ',
+    '#     #  #  #   # #   # #     #   # #  #  #     #   # #  # ',
+    '#     #   # #   # #   # ##### ####  #   # ##### #   # #   #'
 )
 
 $script:Steps = @('System check', 'Process Explorer')
