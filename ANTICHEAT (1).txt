@@ -26,14 +26,14 @@ Clear-Host
 
 # =============================================================================
 #   BSMM ANTI-CHEAT  -  PC Check
-#   Run whenever BSMM staff ask for a PC check. The live monitor is the separate BSMM-Monitor.ps1 script.
+#   Run whenever FRAMEBREAK staff ask for a PC check. The live monitor is the separate FRAMEBREAK-Monitor.ps1 script.
 #
 #   BRAND SETTINGS: edit this block to restyle the whole tool.
 #   Colours are hex (#RRGGBB). "Fallback" is one of the 16 classic console
 #   colours and is only used on very old consoles without true-colour support.
 # =============================================================================
 $script:Brand = @{
-    Name    = 'BSMM'
+    Name    = 'FRAMEBREAK'
     Product = 'Anti-Cheat'
     Mode    = 'PC check'
     Version = '1.2.0'
